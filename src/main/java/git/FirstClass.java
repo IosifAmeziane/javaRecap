@@ -7,6 +7,7 @@ public class FirstClass {
 
         SecondClass secondClass = new SecondClass();
         secondClass.sayHello();
+        System.out.println("Iosif Ameziane");
 
     }
 }
