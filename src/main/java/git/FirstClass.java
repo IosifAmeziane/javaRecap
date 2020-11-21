@@ -8,5 +8,9 @@ public class FirstClass {
         SecondClass secondClass = new SecondClass();
         secondClass.sayHello();
 
+        ThirdClass thirdClass = new ThirdClass();
+
+        System.out.println(secondClass.sayHello() + " " +  thirdClass.getName());
+
     }
 }
