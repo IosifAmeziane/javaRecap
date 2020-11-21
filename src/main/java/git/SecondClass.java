@@ -2,7 +2,8 @@ package git;
 
 public class SecondClass {
 
-    public void sayHello() {
-        System.out.println("Hello!");
+    public String sayHello() {
+        //System.out.println("Hello!");
+        return "Hello";
     }
 }

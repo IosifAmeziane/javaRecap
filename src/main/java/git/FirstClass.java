@@ -9,5 +9,9 @@ public class FirstClass {
         secondClass.sayHello();
         System.out.println("Iosif Ameziane");
 
+        ThirdClass thirdClass = new ThirdClass();
+
+        System.out.println(secondClass.sayHello() + " " +  thirdClass.getName());
+
     }
 }
