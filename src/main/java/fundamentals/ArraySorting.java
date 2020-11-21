@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class ArraySorting {
 
-
     Scanner scanner = new Scanner(System.in);
 
     public int[] KeyInArray() {
@@ -18,11 +17,9 @@ public class ArraySorting {
         return arrayForSorting;
     }
 
-
     public static void main(String[] args) {
         ArraySorting arraySorting = new ArraySorting();
         arraySorting.sortArray();
-
     }
 
     public void sortArray() {
@@ -48,6 +45,4 @@ public class ArraySorting {
             System.out.println(myArray[i]);
         }
     }
-
-
 }
