@@ -5,5 +5,8 @@ public class FirstClass {
         System.out.println("The main method is created");
         System.out.println("The main method is created");
 
+        SecondClass secondClass = new SecondClass();
+        secondClass.sayHello();
+
     }
 }
