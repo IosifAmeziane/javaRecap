@@ -1,3 +1,5 @@
+package algorithms;
+
 import algorithms.ArrayUtils;
 import algorithms.NumbersUtils;
 import org.junit.jupiter.api.Assertions;
