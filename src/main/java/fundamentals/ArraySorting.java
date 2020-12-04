@@ -30,7 +30,7 @@ public class ArraySorting {
             System.out.println(myArray[i]);
         }
 
-        for (int i = 0; i < myArray.length; i++) {
+        /*for (int i = 0; i < myArray.length; i++) {
             for (int j = i + 1; j < myArray.length; j++) {
                 if (myArray[i] > myArray[j]) {
                     int temp = myArray[i];
@@ -38,7 +38,7 @@ public class ArraySorting {
                     myArray[j] = temp;
                 }
             }
-        }
+        }*/
 
         System.out.println("Array Sorted: ");
         for (int i = 0; i < myArray.length; i++) {
